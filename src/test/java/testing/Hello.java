@@ -6,15 +6,14 @@ public class Hello {
 		// TODO Auto-generated method stub
 
 		
+
 		
 		
 		
-	System.out.println("this is rebase");
-	//saffef
-	//fefewf
 	
 	//Rebase orgin 1
 	//Rbase origin commit 2
+
 	}
 
 }
