@@ -6,12 +6,11 @@ public class Hello {
 		// TODO Auto-generated method stub
 
 		
-		System.out.println("Hello");
-		//dfdfdsc
-	//dafdaff
-	//fefewfwef
-	//dsvew
-		//dvsvweewf
+		
+		
+		
+		System.out.println("Gh");
+		System.out.println("To check fetch and pull");
 	}
 
 }
