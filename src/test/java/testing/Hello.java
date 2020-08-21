@@ -1,21 +1,20 @@
 package testing;
 
+import org.testng.annotations.Test;
+
 public class Hello {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		
-
-		
-		
-		
 	
-	//Rebase orgin 1
-	//Rbase origin commit 2
-
+	@Test
+	public static void method()
+	{
 		
-	
+		int a =10;
+		int b=0;
+		int c =0;
+		
+		c= a/b;
+		
 	}
 
 }
