@@ -12,11 +12,5 @@
       <class name="testing.GoogleTitle"/>
     </classes>
   </test> 
-  
-  <test name="Test1">
-    <classes>
-      <class name="testing.Hello"/>
-    </classes>
-  </test> <!-- Test -->
-  
+
 </suite> <!-- Suite -->

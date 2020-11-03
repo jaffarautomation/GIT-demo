@@ -105,8 +105,7 @@
 					<suiteXmlFiles>
 
 						<suiteXmlFile>testng.xml</suiteXmlFile>
-						<suiteXmlFile>C:\Users\ADMIN\eclipse-workspace1\GIT\test-output\testng-failed.xml</suiteXmlFile>
-
+						
 					</suiteXmlFiles>
 				</configuration>
 
