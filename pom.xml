@@ -18,8 +18,8 @@
 
 	<distributionManagement>
 		<repository>
-			<id>nexus-786</id>
-			<url>http://localhost:8081/nexus/content/repositories/786</url>
+			<id>nexus-release</id>
+			<url>http://localhost:8081/repository/Maven_Demo/</url>
 		</repository>
 	</distributionManagement>
 
@@ -106,7 +106,7 @@
 
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 						<suiteXmlFile>C:\Users\ADMIN\eclipse-workspace1\GIT\test-output\testng-failed.xml</suiteXmlFile>
-						
+
 					</suiteXmlFiles>
 				</configuration>
 
@@ -133,7 +133,11 @@
 				</configuration>
 			</plugin>
 
-
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>2.8.2</version>
+			</plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>versions-maven-plugin</artifactId>
@@ -168,33 +172,5 @@
 
 	</build>
 
-	<profiles>
-		<profile>
-			<id>releases</id>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.sonatype.plugins</groupId>
-						<artifactId>nexus-staging-maven-plugin</artifactId>
-						<version>1.5.1</version>
-						<executions>
-							<execution>
-								<id>default-deploy</id>
-								<phase>deploy</phase>
-								<goals>
-									<goal>deploy</goal>
-								</goals>
-							</execution>
-						</executions>
-						<configuration>
-							<serverId>nexus-786</serverId>
-							<nexusUrl>http://localhost:8081/nexus/</nexusUrl>
-							<skipStaging>true</skipStaging>
-						</configuration>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
 
 </project>
